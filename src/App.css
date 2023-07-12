@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Slabo+27px&display=swap');
+*{
+  font-weight: 300px;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+a:hover{
+  text-decoration: inherit;
+  color: #400c7b;
+  margin: 0;
+}
+
+
+.nav-color{
+  background-color: #400c7b !important;
+}
+
+.hero{
+  width: 100%;
+  height: 550px;
+  background-image: url(./Images/2019_Purple_Abstract_4K_HD_Design_1366x768.jpg);
+  background-size: cover;
+  border-radius: 0 0 20% 20%;
+}
+
+.hero-padding{
+  padding-top: 120px;
+}
+
+
+.hire-me1{
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid white;
+  color:white;
+  text-decoration: none;
+}
+
+.hire-me1:hover{
+  background-color: white;
+  color: #400c7b;
+  transition: .5s;
+}
+
+.btn-light1{
+  padding: 12px 20px !important;
+  background: #fff !important;
+  color: #400c7b !important;
+  text-decoration: none;
+  border-radius: 30px !important;
+}
+
+.about-header{
+  color: rgb(64, 12, 123);
+}
+
+.about-flex{
+  max-width: 550px;
+  height: auto;
+}
+
+.about-font{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(126, 126, 126);
+  line-height: 30px;
+}
+
+.about-font1{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(126, 126, 126);
+}
+
+.skill-image{
+  max-width: 100%;
+  height: auto;
+  background-image: url(./Images/3d-render-abstract-color-minimalistic-background-d-SNK5K4C.jpg);
+  background-size: cover;
+}
+
+.skill-image-overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.progress-line1{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line1 span{
+  height: 100%;
+  width: 90%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+  scroll-behavior: inherit;
+}
+
+.progress-line2{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line2 span{
+  height: 100%;
+  width: 85%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line3{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line3 span{
+  height: 100%;
+  width: 80%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line4{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line4 span{
+  height: 100%;
+  width: 85%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line5{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line5 span{
+  height: 100%;
+  width: 75%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line6{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line6 span{
+  height: 100%;
+  width: 81%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line7{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line7 span{
+  height: 100%;
+  width: 73%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line8{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line8 span{
+  height: 100%;
+  width: 75%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.html{
+  width: 90%;
+  animation: html 5s;
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+.css{
+  width: 85%;
+  animation: css 5s;
+}
+
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+.javascript{
+  width: 80%;
+  animation: javascript 5s;
+}
+
+@keyframes javascript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+.react{
+  width: 85%;
+  animation: react 5s;
+}
+
+@keyframes react {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+.ui-ux{
+  width: 75%;
+  animation: ui-ux 5s;
+}
+
+@keyframes ui-ux {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+.wordpress{
+  width: 81%;
+  animation: wordpress 5s;
+}
+
+@keyframes wordpress {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 81%;
+  }
+}
+
+.node{
+  width: 73%;
+  animation: node 5s;
+}
+
+@keyframes node {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 73%;
+  }
+}
+
+.express{
+  width: 75%;
+  animation: express 5s;
+}
+
+@keyframes express {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+
+.service-Body{
+  display: flex;
+  justify-content: center;
+}
+
+.service-card{
+  max-width: 350px;
+  height: auto;
+  background-image: url(./Images/purple-abstraction-rectangles-rhombuses-squares-pink-abstract-background.jpg);
+  background-size: cover;
+  border-radius: 25px;
+  box-shadow: 0 0 6px rgb(230, 219, 219);
+}
+
+.service-card-overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.911);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.service-font{
+  font-size: 18px;
+  list-style: 25px;
+  color: #818181;
+}
+
+.port-deets{
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-font{
+  font-size: 18px;
+  color: #818181;
+  font-weight: 400;
+}
+
+
+.hire-me{
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  background-color: #400c7b;
+  color:white;
+  text-decoration: none;
+}
+
+.hire-me:hover{
+  background-color: #fff;
+  color: #400c7b;
+  border: 1px solid #400c7b;
+  transition: .5s;
+}
+
+.form-font{
+  color: #400c7b;
+}
+
+.contact-us-form-message{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #dbdada;
+}
+
+.btn-outline-light3{
+  padding: 12px 20px !important;
+  background-color: #400c7b !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+}
+
+.btn-outline-light3:hover{
+  padding: 12px 20px !important;
+  border: 1px solid #400c7b;
+  background-color: #fff !important;
+  color: #400c7b !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+  transition: .5s;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  background: #152136;
+  padding: 30px 20px;
+  color: #bebebe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.footer-copy{
+  width: auto;
+  height: auto;
+  background: #1c2940;
+  align-items: center;
+  background-color: #1c2940;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

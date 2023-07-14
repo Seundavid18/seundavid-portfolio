@@ -60,6 +60,11 @@ a:hover{
   color: rgb(64, 12, 123);
 }
 
+.about-body{
+  display: flex;
+  justify-content: center;
+}
+
 .about-flex{
   max-width: 550px;
   height: auto;

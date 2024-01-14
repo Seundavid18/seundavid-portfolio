@@ -448,3 +448,20 @@ a:hover{
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.cert-card{
+  max-width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #344562 1px solid;
+  border-radius: 25px;
+  box-shadow: 0 0 6px rgb(230, 219, 219);
+  padding: 10px 20px 10px 20px;
+}
+
+.cert-img{
+  width: 100%;
+  height: 300px;
+}

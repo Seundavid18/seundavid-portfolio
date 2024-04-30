@@ -177,7 +177,7 @@ const Portfolio = () => {
                                     <div><DiNodejsSmall className="me-3" color=" #88b04a" size={20}/></div>
                                     <div><SiMongodb color=" #3e912f" size={20}/></div>
                                 </div>
-                                <a class="hire-me" href="https://seunblogapp.azurewebsites.net" target="blank">Visit site</a>
+                                <a class="hire-me" href="https://seundavidblog.azurewebsites.net/" target="blank">Visit site</a>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ const Portfolio = () => {
                                     <div><DiNodejsSmall className="me-3" color=" #88b04a" size={20}/></div>
                                     <div><SiMongodb color=" #3e912f" size={20}/></div>
                                 </div>
-                                <a class="hire-me" href="https://minibankapp.azurewebsites.net" target="blank">Visit site</a>
+                                <a class="hire-me" href="https://seunbankapp.azurewebsites.net/" target="blank">Visit site</a>
                             </div>
                         </div>
                     </div>

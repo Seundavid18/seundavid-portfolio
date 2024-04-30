@@ -57,7 +57,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>Azure Administrator
-                                                        <span className="float-end">80%</span>
+                                                        <span className="float-end">85%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line1"><span className="html"></span></div>
@@ -65,8 +65,8 @@ const About = () => {
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>Azure Developer
-                                                        <span className="float-end">85%</span>
+                                                    <h5 style={{fontSize: '14px'}}>Azure DevOps
+                                                        <span className="float-end">90%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line1"><span className="html"></span></div>

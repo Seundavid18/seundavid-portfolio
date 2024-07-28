@@ -1,28 +1,8 @@
-import React, {useEffect, useState} from "react";
 import {HiOutlineMail} from 'react-icons/hi'
 import {BiPhoneCall} from 'react-icons/bi'
 
 
-const About = () => {
-
-   
-
-    // const [scroll, setScroll] = useState ()
-    
-        
-    //         setTimeout(function(){
-    //             window.onscroll = function (){
-    //                 const newScroll = {
-    //                     opacity: 1,
-    //                 }
-    //                 setScroll(newScroll)
-    //             }
-    //         }, 3000)   
-        
-    
-    
-       
-    
+const About = () => {    
 
     return(
         <section className="pt-5 pb-5 bg-white" id="about">

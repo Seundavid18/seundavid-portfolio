@@ -1,8 +1,11 @@
 import React from 'react'
 import azureAd from '../src/Images/azure-administrator-associate-600x600.png'
-import azureDev from '../src/Images/CERT-Expert-DevOps-Engineer-600x600.png'
-import azureMct from '../src/Images/MCT-Microsoft_Certified_Trainer.png'
+import azureDev from '../src/Images/Az-305.png'
+import azureMct from '../src/Images/MCT.png'
 import azureFsp from '../src/Images/1549983738980.jpeg'
+import CompTIA from '../src/Images/CompTIA_Project_2B.png'
+import newHorizon from '../src/Images/newhorizon.jpeg'
+
 
 const Certification = () => {
   return (
@@ -20,7 +23,7 @@ const Certification = () => {
                 <div className='cert-card d-flex justify-content-center'>
                   <img src={azureDev} alt="" className='cert-img'/>
                 </div>
-                <h5 className='text-center fw-bold pt-3'>Azure DevOps Engineer</h5>
+                <h5 className='text-center fw-bold pt-3'>Azure Solutions Architect Experts</h5>
               </div>
               <div className="col">
                 <div className='cert-card d-flex justify-content-center'>
@@ -34,6 +37,18 @@ const Certification = () => {
                 </div>
                 <h5 className='text-center fw-bold pt-3'>Fullstack Programming</h5>
               </div>
+              <div className="col">
+                <div className='cert-card d-flex justify-content-center'>
+                  <img src={CompTIA} alt="" className='cert-img'/>
+                </div>
+                <h5 className='text-center fw-bold pt-3'>CompTIA Project+</h5>
+            </div>
+            <div className="col">
+                <div className='cert-card d-flex justify-content-center'>
+                  <img src={newHorizon} alt="" className='cert-img'/>
+                </div>
+                <h5 className='text-center fw-bold pt-3'>Managing Projects with Microsoft Project</h5>
+            </div>
             </div>
         </div>
     </section>

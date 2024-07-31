@@ -9,7 +9,7 @@ import newHorizon from '../src/Images/newhorizon.jpeg'
 
 const Certification = () => {
   return (
-    <section className="pt-5 pb-5 bg-white" id="contact">
+    <section className="pt-5 pb-5 bg-white" id="certifications">
         <div className="container">
             <h1 className="text-center fs-2 fw-bold about-header pt-4 pb-4">Certifications</h1>
             <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">

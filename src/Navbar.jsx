@@ -14,6 +14,7 @@ function Navbar(){
                         <a class="nav-link text-white fs-6 fw-bold me-3" aria-current="page" href="#about">About Me</a>
                         <a class="nav-link text-white fs-6 fw-bold me-3" href="#services">Services</a>
                         <a class="nav-link text-white fs-6 fw-bold me-3" href="#portfolio">Portfolio</a>
+                        <a class="nav-link text-white fs-6 fw-bold me-3" href="#certifications">Certifications</a>
                         <a class="nav-link text-white fs-6 fw-bold" href="#contact">Contact Me</a>
                     </div>
                 </div>

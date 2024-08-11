@@ -112,7 +112,7 @@ a:hover{
 
 .progress-line1 span{
   height: 100%;
-  width: 90%;
+  width: 95%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -129,7 +129,7 @@ a:hover{
 
 .progress-line2 span{
   height: 100%;
-  width: 85%;
+  width: 95%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -145,7 +145,7 @@ a:hover{
 
 .progress-line3 span{
   height: 100%;
-  width: 80%;
+  width: 90%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -161,7 +161,7 @@ a:hover{
 
 .progress-line4 span{
   height: 100%;
-  width: 85%;
+  width: 95%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -177,7 +177,7 @@ a:hover{
 
 .progress-line5 span{
   height: 100%;
-  width: 75%;
+  width: 85%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -193,7 +193,7 @@ a:hover{
 
 .progress-line6 span{
   height: 100%;
-  width: 81%;
+  width: 85%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -209,7 +209,7 @@ a:hover{
 
 .progress-line7 span{
   height: 100%;
-  width: 73%;
+  width: 90%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -225,7 +225,39 @@ a:hover{
 
 .progress-line8 span{
   height: 100%;
-  width: 75%;
+  width: 90%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line9{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line9 span{
+  height: 100%;
+  width: 95%;
+  background: #400c7b;
+  position: absolute;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.progress-line10{
+  width: 100%;
+  height: 5px;
+  background: #adadad;
+  position: relative;
+}
+
+.progress-line10 span{
+  height: 100%;
+  width: 90%;
   background: #400c7b;
   position: absolute;
   border-radius: 10px;
@@ -233,7 +265,7 @@ a:hover{
 }
 
 .html{
-  width: 90%;
+  width: 95%;
   animation: html 5s;
 }
 
@@ -242,12 +274,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 90%;
+    width: 95%;
   }
 }
 
 .css{
-  width: 85%;
+  width: 95%;
   animation: css 5s;
 }
 
@@ -256,12 +288,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 85%;
+    width: 95%;
   }
 }
 
 .javascript{
-  width: 80%;
+  width: 90%;
   animation: javascript 5s;
 }
 
@@ -270,12 +302,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 80%;
+    width: 90%;
   }
 }
 
 .react{
-  width: 85%;
+  width: 95%;
   animation: react 5s;
 }
 
@@ -284,12 +316,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 85%;
+    width: 95%;
   }
 }
 
 .ui-ux{
-  width: 75%;
+  width: 85%;
   animation: ui-ux 5s;
 }
 
@@ -298,12 +330,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 75%;
+    width: 85%;
   }
 }
 
 .wordpress{
-  width: 81%;
+  width: 85%;
   animation: wordpress 5s;
 }
 
@@ -312,12 +344,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 81%;
+    width: 85%;
   }
 }
 
 .node{
-  width: 73%;
+  width: 90%;
   animation: node 5s;
 }
 
@@ -326,12 +358,12 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 73%;
+    width: 90%;
   }
 }
 
 .express{
-  width: 75%;
+  width: 90%;
   animation: express 5s;
 }
 
@@ -340,7 +372,35 @@ a:hover{
     width: 0%;
   }
   100%{
-    width: 75%;
+    width: 90%;
+  }
+}
+
+.azure{
+  width: 95%;
+  animation: azure 5s;
+}
+
+@keyframes azure {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+
+.devops{
+  width: 90%;
+  animation: devops 5s;
+}
+
+@keyframes devops {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
   }
 }
 

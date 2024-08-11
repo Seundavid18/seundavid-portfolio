@@ -1,8 +1,8 @@
-import React from "react"
-import {AiOutlineDesktop} from 'react-icons/ai'
-import {BsCodeSlash} from 'react-icons/bs'
-import {SiSketchup} from 'react-icons/si'
-import {MdShoppingBag} from 'react-icons/md'
+import React from "react";
+import {AiOutlineDesktop} from 'react-icons/ai';
+import {BsCodeSlash} from 'react-icons/bs';
+import { SiMicrosoftazure } from "react-icons/si";
+import { SiAzuredevops } from "react-icons/si";
 
 
 function Services(){
@@ -22,16 +22,16 @@ function Services(){
         },
 
         {
-            icon: <SiSketchup size={60} color='#400c7b'/>,
-            head: 'UI/UX',
-            body: 'The aesthetics and design of the interface, flow process or sitemaps for a website, application or other interactive media'
+            icon: <SiMicrosoftazure size={50} color='#400c7b'/>,
+            head: 'Azure Solutions',
+            body: 'Using products and cloud services designed to help you bring new solutions to life—to solve today challenges and create the future. Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice.'
 
         },
 
         {
-            icon: <MdShoppingBag size={60} color='#400c7b'/>,
-            head: 'Ecommerce',
-            body: 'The integration of eCommerce platforms, payment gateways, custom products templates and a few more'
+            icon: <SiAzuredevops size={50} color='#400c7b'/>,
+            head: 'Azure DevOps',
+            body: 'Help organizations to create and improve products at a faster pace than they can with traditional software development approaches.'
 
         },
     ]

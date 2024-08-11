@@ -31,16 +31,16 @@ const About = () => {
                             <div className="skill-image">
                                 <div className="skill-image-overlay">
                                     <h6>
-                                        HTML | CSS  Bootstrap | Javascript | React | Node.js | Express.js | Microsoft Azure | Cloud Computing
+                                        HTML | CSS  Bootstrap | Javascript | React | Node.js | Express.js | Microsoft Azure | Azure DevOps
                                     </h6>
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>Azure Administrator
-                                                        <span className="float-end">85%</span>
+                                                        <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
-                                                <div className="progress-line1"><span className="html"></span></div>
+                                                <div className="progress-line9"><span className="azure"></span></div>
                                             </div>
 
                                             <div className="bar pt-3 pb-3">
@@ -49,13 +49,13 @@ const About = () => {
                                                         <span className="float-end">90%</span>
                                                     </h5>
                                                 </div>
-                                                <div className="progress-line1"><span className="html"></span></div>
+                                                <div className="progress-line10"><span className="devops"></span></div>
                                             </div>   
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>HTML
-                                                        <span className="float-end">90%</span>
+                                                        <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line1"><span className="html"></span></div>
@@ -64,7 +64,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>CSS
-                                                        <span className="float-end">85%</span>
+                                                        <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line2"><span className="css"></span></div>
@@ -73,7 +73,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>JAVASCRIPT
-                                                        <span className="float-end">80%</span>
+                                                        <span className="float-end">90%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line3"><span className="javascript"></span></div>
@@ -82,7 +82,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>REACT JS
-                                                        <span className="float-end">85%</span>
+                                                        <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line4"><span className="react"></span></div>
@@ -91,7 +91,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>UI/UX
-                                                        <span className="float-end">75%</span>
+                                                        <span className="float-end">85%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line5"><span className="ui-ux"></span></div>
@@ -100,7 +100,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>WORDPRESS
-                                                        <span className="float-end">81%</span>
+                                                        <span className="float-end">85%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line6"><span className="wordpress"></span></div>
@@ -109,7 +109,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>NODE JS
-                                                        <span className="float-end">73%</span>
+                                                        <span className="float-end">90%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line7"><span className="node"></span></div>
@@ -118,7 +118,7 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>EXPRESS JS
-                                                        <span className="float-end">75%</span>
+                                                        <span className="float-end">90%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line8"><span className="express"></span></div>

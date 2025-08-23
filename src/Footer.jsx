@@ -17,7 +17,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-copy">
-                    <h6 className="fs-6 text-center pt-3">&copy; Copyright 2022. All rights reserved by Seun-David</h6>
+                    <h6 className="fs-6 text-center pt-3">&copy; Copyright 2025. All rights reserved by Seun-David</h6>
                 </div>
             </footer>
         </div>

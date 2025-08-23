@@ -11,16 +11,15 @@ const About = () => {
                 <div className="about-body">
                     <div className="d-lg-flex flex-nowrap gap-3 pt-5">
                         <div className="about-flex">
-                            <h4 className="fs-5">Hello! I'm Seun David</h4>
-                            <h6 className="about-font fs-6">I am a Full stack developer, fluent in English and specialized in web development.
-                            I have a great passion on designing and always love to create a new web project. Thus i am a highly skilled, enthusiastic, self-motivated Full stack developer able to do any kind of work in web designing and development. I have developed few websites and my clients are satisfied. My goal when working with a client is to bring the client’s tasks, wants and imaginations to life. I am efficient and try to keep up to date also upgrade my skills. 
-                            I use the best ways and tools to satisfy my clients imaginations. <br />
-                            
-                            UI/UX (wireframe, mock-up and prototyping) <br />
-                            Wordpress, create and customize any commercial theme. <br />
-                            Web programming, web development: frontend and backend <br />
-                            Adobe creative suites such as XD, Illustrator. <br />
-                            HTML, CSS, Bootstrap, Javascript, React, Node.js, Express.js and more....
+                            <h4 className="fs-5">David Oyewumi (Seun David) - DevOps/SRE Engineer</h4>
+                            <h6 className="about-font fs-6">
+                                I help businesses and organizations run more smoothly, stay secure, and recover quickly when things go wrong. Whether it’s an online store preparing for a major sale, a school managing student records, a church streaming live services, or a hotel keeping guest systems online. I ensure their technology works reliably, securely, and efficiently.
+
+                                My job is to prevent downtime, protect sensitive data, and make sure updates happen without breaking anything. I work behind the scenes to set up systems that are automated, cost-effective, and future-ready. The result? Fewer disruptions, faster service, and more peace of mind.
+
+                                If you’ve ever seen a major outage in the news like systems going down or screens showing errors for hours my role is to help businesses avoid those moments. And when new features roll out on apps or websites without issues, I’ve done my job well.
+
+                                I’m passionate about using smart tools and automation to make life easier for teams, customers, and communities. Whether you’re in retail, education, hospitality, ministry, or transportation, I can help your systems work better behind the scenes—so you can focus on what matters most. <br />
                             </h6>
                             <div className="d-lg-flex flex-nowrap gap-3 pt-2">
                                 <h6 className="about-font1 fs-6"><span style={{color: '#400c7b'}}><HiOutlineMail /></span> Email: oyewumidavid84@gmail.com</h6>
@@ -31,7 +30,7 @@ const About = () => {
                             <div className="skill-image">
                                 <div className="skill-image-overlay">
                                     <h6>
-                                        HTML | CSS  Bootstrap | Javascript | React | Node.js | Express.js | Microsoft Azure | Azure DevOps
+                                        Microsoft Azure | Azure DevOps | AWS | Kubernetes | Docker | CI/CD | Monitoring | React | Node.js | Cloud Engineering
                                     </h6>
 
                                             <div className="bar pt-3 pb-3">
@@ -46,15 +45,24 @@ const About = () => {
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
                                                     <h5 style={{fontSize: '14px'}}>Azure DevOps
-                                                        <span className="float-end">90%</span>
+                                                        <span className="float-end">98%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line10"><span className="devops"></span></div>
-                                            </div>   
+                                            </div>
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>HTML
+                                                    <h5 style={{fontSize: '14px'}}>AWS
+                                                        <span className="float-end">80%</span>
+                                                    </h5>
+                                                </div>
+                                                <div className="progress-line10"><span className="devops"></span></div>
+                                            </div>  
+
+                                            <div className="bar pt-3 pb-3">
+                                                <div className="info">
+                                                    <h5 style={{fontSize: '14px'}}>Containerization
                                                         <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
@@ -63,7 +71,7 @@ const About = () => {
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>CSS
+                                                    <h5 style={{fontSize: '14px'}}>Docker
                                                         <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
@@ -72,8 +80,8 @@ const About = () => {
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>JAVASCRIPT
-                                                        <span className="float-end">90%</span>
+                                                    <h5 style={{fontSize: '14px'}}>Kubernetes
+                                                        <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line3"><span className="javascript"></span></div>
@@ -90,8 +98,8 @@ const About = () => {
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>UI/UX
-                                                        <span className="float-end">85%</span>
+                                                    <h5 style={{fontSize: '14px'}}>CI/CD
+                                                        <span className="float-end">98%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line5"><span className="ui-ux"></span></div>
@@ -99,8 +107,8 @@ const About = () => {
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>WORDPRESS
-                                                        <span className="float-end">85%</span>
+                                                    <h5 style={{fontSize: '14px'}}>Monitoring
+                                                        <span className="float-end">95%</span>
                                                     </h5>
                                                 </div>
                                                 <div className="progress-line6"><span className="wordpress"></span></div>
@@ -117,7 +125,7 @@ const About = () => {
 
                                             <div className="bar pt-3 pb-3">
                                                 <div className="info">
-                                                    <h5 style={{fontSize: '14px'}}>EXPRESS JS
+                                                    <h5 style={{fontSize: '14px'}}>Cloud Engineering
                                                         <span className="float-end">90%</span>
                                                     </h5>
                                                 </div>

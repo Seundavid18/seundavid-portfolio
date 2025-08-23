@@ -23,16 +23,15 @@ function Services(){
 
         {
             icon: <SiMicrosoftazure size={50} color='#400c7b'/>,
-            head: 'Azure Solutions',
-            body: 'Using products and cloud services designed to help you bring new solutions to life—to solve today challenges and create the future. Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice.'
+            head: 'Cloud Solutions',
+            body: 'Delivering modern cloud solutions that solve today’s challenges and prepare you for tomorrow. Design, build, and manage applications seamlessly across multiple clouds, on-premises, and at the edge—using the platforms and tools that fit your business.'
 
         },
 
         {
             icon: <SiAzuredevops size={50} color='#400c7b'/>,
-            head: 'Azure DevOps',
-            body: 'Help organizations to create and improve products at a faster pace than they can with traditional software development approaches.'
-
+            head: 'DevOps and SRE',
+            body: 'Helping organizations build, run, and scale applications across clouds while streamlining development with DevOps practices and ensuring reliability through SRE principles—delivering faster, secure, and resilient solutions.'
         },
     ]
     return(
